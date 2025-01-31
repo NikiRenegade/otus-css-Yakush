@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&
+                family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" t>
 </head>
 <body>
 <!--Хедер содержащий в себе главный заголовок и навигационное меню-->
 <header>
-    <h1>Mod</h1>
+    <h1 class="header-logo">Mod</h1>
     <!--Навигационное меню-->
-    <nav>
+    <nav class="header-navigator">
         <a href="#biography">Biography</a>
         <a href="#designers">Designers</a>
         <a href="#testimonials">Testimonials</a>
@@ -21,81 +26,81 @@
 <section>
     <article>
         <img src="img/heroBackground.jpg" alt="heroBackground">
-        <h2>Mod Studio</h2>
-        <p>Modern Web Studio</p>
+        <h2 class="hero-logo">Mod Studio</h2>
+        <p class="hero-description">Modern Web Studio</p>
     </article>
 </section>
 <!--Основной блок-->
 <main>
     <!--Секция с биографией - содержит заголовок плюс article с ифнормацией-->
     <section id="biography">
-        <h2>Biography</h2>
+        <h2 class="section-name">Biography</h2>
         <!--article с информацией - Katya Mills-->
         <article>
             <img src="img/biographyKatyaMills.jpg" alt="Katya Mills">
-            <h3>Katya Mills</h3>
-            <p>Art Director <br>
+            <h3 class="biography-name">Katya Mills</h3>
+            <p class="biography-role">Art Director <br>
                 Scenography / Styling / Creative Photography / Design
             </p>
-            <blockquote>
+            <blockquote class="biography-quote">
                 "The more I deal with the work as something that is my own, as something that is personal, the more successful it is."
             </blockquote>
         </article>
     </section>
     <!--Секция с дизайнерами - содержит заголовок плюс 3 article с ифнормацией о дизайнерах-->
     <section id="designers">
-        <h2>Designers</h2>
+        <h2 class="section-name">Designers</h2>
         <!--article с информацией - Jess Wonder-->
         <article>
             <img src="img/designersJessWonder.jpg" alt="Jess Wonder">
-            <p><strong>JESS WONDER</strong> <br>
-                <strong>From</strong>/ Be more flower <br>
-                <strong>Skills</strong>/ Design Strategy / Marketing
+            <p class="designer-info-text" ><strong class="designer-info-tittle">JESS WONDER</strong> <br>
+                <strong class="designer-info-tittle">From</strong>/ Be more flower <br>
+                <strong class="designer-info-tittle">Skills</strong>/ Design Strategy / Marketing
             </p>
         </article>
         <!--article с информацией - Kameron Clein-->
         <article>
             <img src="img/designersKameronClein.jpg" alt="Kameron Clein">
-            <p><strong>KAMERON CLEIN</strong> <br>
-                <strong>From</strong>/ Be more flower <br>
-                <strong>Skills</strong>/ Design Strategy / Marketing
+            <p class=designer-info-text"><strong class="designer-info-tittle">KAMERON CLEIN</strong> <br>
+                <strong class="designer-info-tittle">From</strong>/ Be more flower <br>
+                <strong class="designer-info-tittle">Skills</strong>/ Design Strategy / Marketing
             </p>
         </article>
         <!--article с информацией - Louisse Red-->
         <article>
             <img src="img/designersLouisseRed.jpg" alt="Louisse Red">
-            <p><strong>LOUISSE RED</strong> <br>
-                <strong>From</strong>/ Be more flower <br>
-                <strong>Skills</strong>/ Design Strategy / Marketing
+            <p class=designer-info-text"><strong class="designer-info-tittle">LOUISSE RED</strong> <br>
+                <strong class="designer-info-tittle">From</strong>/ Be more flower <br>
+                <strong class="designer-info-tittle">Skills</strong>/ Design Strategy / Marketing
             </p>
         </article>
     </section>
     <!--Секция с отзывами - содержит заголовок плюс 2 article с ифнормацией-->
     <section id="testimonials">
-        <h2>Testimonials</h2>
+        <h2 class="section-name">Testimonials</h2>
         <!--article с изображением и с aside с адресами web ресурсов-->
         <article>
             <!--aside с адресами web сайтов-->
             <aside>
-                <p><strong>Website</strong></p>
-                <a href="www.whitepapers.com">www.whitepapers.com</a>
-                <p><strong>Creativity</strong></p>
-                <a href="www.whitepapers.com">www.whitepapers.com</a>
-                <p><strong>Creativity</strong></p>
-                <a href="www.whitepapers.com">www.whitepapers.com</a>
+                <p class="testimonials-link-name"><strong>Website</strong></p>
+                <a href="www.whitepapers.com" class="testimonials-link">www.whitepapers.com</a>
+                <p class="testimonials-link-name"><strong>Creativity</strong></p>
+                <a href="www.whitepapers.com" class="testimonials-link">www.whitepapers.com</a>
+                <p class="testimonials-link-name"><strong>Creativity</strong></p>
+                <a href="www.whitepapers.com" class="testimonials-link">www.whitepapers.com</a>
             </aside>
             <img src="img/testimonials1.jpg" alt="testimonials1">
         </article>
         <!--article с изображением и текстом с огромным количество перевода на новую строку-->
         <article>
-            <p>
+            <p class="testimonials-quote">
                 I just really <br>want to do<br> good work<br> and work with <br>some great <br>people, people <br>who challenge me.<br></p>
                 <img src="img/testimonials2.jpg" alt="testimonials2">
         </article>
     </section>
     <!--Секция strongPoint - содержит заголовок,  article с двумя изображения и aside содержащий список Strengths-->
     <section id="strongPoints">
-        <h2>Strong points</h2>
+        <h2 class="section-name">Strong points</h2>
         <!--article с изображениями-->
         <article>
             <img src="img/strongPoint1.jpg" alt="strongPoint1">
@@ -104,8 +109,8 @@
         <!--aside содержащий список Strengths-->
         <aside>
             <!--список Strengths-->
-            <p><strong>Strengths</strong></p>
-            <ul>
+            <p ><strong class="testimonials-strengths">Strengths</strong></p>
+            <ul class="strengths">
                 <li>Interiors</li>
                 <li>Outdoors</li>
                 <li>Portraits</li>
@@ -123,12 +128,12 @@
 <!--footer с address и тектом-->
 <footer>
     <!--address состоящий из номера телефона и ссылки на web ресурс-->
-    <address>
+    <address class="footer-contact">
         <a href="tel:+79211234567">+7 921 123-45-67</a>
         <p><a href="info@modstudio.com">info@modstudio.com</a></p>
     </address>
-     <p>A product of  <strong>MOD</strong></p>
-    <p>© 2023 Mod Media. All rights reserved</p>
+     <p class="footer-description">A product of  <strong class="footer-logo">MOD</strong></p>
+    <p class="footer-copyright">© 2023 Mod Media. All rights reserved</p>
 </footer>
 </body>
 </html>

@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Bitter";
+    src: url("/fonts/Bitter.ttf") format("ttf");
+    font-weight: 400;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 86px;
+    font-weight: 600;
+}
+
+.header-navigator {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.hero-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.hero-logo,
+.biography-name,
+.testimonials-strengths{
+    font-family: 'Playfair Display', serif;
+    font-size: 86px;
+    font-weight: 500;
+}
+
+.biography-role {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.biography-quote {
+    font-family: 'Bitter', serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.designer-info-tittle,
+.testimonials-link-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.designer-info-text,
+.testimonials-link,
+.testimonials-link,
+.footer-contact,
+.footer-copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.testimonials-quote {
+    font-family: 'Bitter', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.strengths {
+    font-family: 'Bitter', serif;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.footer-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+}
