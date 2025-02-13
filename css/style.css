@@ -11,15 +11,16 @@ html {
 }
 body {
     font-family: 'Roboto', sans-serif;
-    width: 1440px;
-
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 header {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 20px;
 }
 
 .header-title {
