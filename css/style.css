@@ -143,7 +143,24 @@ header {
     margin-left: 0;
     margin-top: 0;
 }
-
+.designers-section-name {
+    margin-left: 139px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.designers-article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    overflow: auto;
+    max-width: 100%
+}
+.designer-article {
+    margin-left: 20px;
+}
+.designer-info-text-Jess-Wonder {
+    margin-left: 239px;
+}
 .designer-info-tittle,
 .testimonials-link-name {
     font-family: 'Roboto', sans-serif;
@@ -194,4 +211,10 @@ header {
     margin-right: 9.54%;
     flex-direction: row;
     margin-top: 9.8%;
+}
+#designers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10.5%;
 }
