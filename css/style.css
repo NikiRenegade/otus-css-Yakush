@@ -192,6 +192,7 @@ header {
 }
 .testimonials-cafe {
     grid-column: 2 / 6;
+    width: 100%;
 }
 .testimonials-quote-and-image {
     grid-column: 8 / 12;
@@ -211,6 +212,8 @@ header {
 }
 .testimonials-quote-and-image img {
     grid-column: 2 / 4;
+    width: 100%;
+    justify-self: center;
 }
 .strengths {
     font-family: 'Bitter', serif;
