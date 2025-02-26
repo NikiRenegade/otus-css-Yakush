@@ -92,35 +92,36 @@
     </section>
     <!--Секция с отзывами - содержит заголовок плюс 2 article с ифнормацией-->
     <section id="testimonials">
-        <h2 class="section-name">Testimonials</h2>
+        <div class="testimonials-section-name-container">
+            <h2 class="section-name testimonials-section-name">Testimonials</h2>
+        </div>
         <!--article с изображением и с aside с адресами web ресурсов-->
-        <article>
+        <article class="testimonials-article-links-and-cafe-img">
             <!--aside с адресами web сайтов-->
-            <aside>
-                <ul>
-                    <li>
+            <aside class="testimonials-links">
+                <ul class="testimonials-links-menu">
+                    <li class="testimonials-links-menu-item">
                         <p class="testimonials-link-name"><strong>Website</strong></p>
                         <a href="www.whitepapers.com" class="testimonials-link">www.whitepapers.com</a>
                     </li>
-                   <li>
+                   <li class="testimonials-links-menu-item" style="grid-row: 2">
                        <p class="testimonials-link-name"><strong>Creativity</strong></p>
                        <a href="www.whitepapers.com" class="testimonials-link">www.whitepapers.com</a>
                    </li>
-                   <li>
+                   <li class="testimonials-links-menu-item">
                        <p class="testimonials-link-name"><strong>Creativity</strong></p>
                        <a href="www.whitepapers.com" class="testimonials-link">www.whitepapers.com</a>
                    </li>
 
                 </ul>
-
             </aside>
-            <img src="img/testimonials1.jpg" alt="testimonials1">
+            <img src="img/testimonials1.jpg" alt="testimonials1" class="testimonials-cafe">
         </article>
         <!--article с изображением и текстом с огромным количество перевода на новую строку-->
-        <article>
-            <p class="testimonials-quote">
-                I just really <br>want to do<br> good work<br> and work with <br>some great <br>people, people <br>who challenge me.<br></p>
-                <img src="img/testimonials2.jpg" alt="testimonials2">
+        <article class="testimonials-quote-and-image">
+            <blockquote class="testimonials-quote">
+                I just really want to do good work and work with some great people, people who challenge me.</blockquote>
+                <img src="img/testimonials2.jpg" alt="testimonials2" >
         </article>
     </section>
     <!--Секция strongPoint - содержит заголовок,  article с двумя изображения и aside содержащий список Strengths-->
